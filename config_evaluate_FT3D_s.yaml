@@ -1,0 +1,17 @@
+# GPU args
+gpu: "1"
+multi_gpu: null
+
+# Test args
+model_name: FlowNet3d
+seed: 1
+batch_size: 1
+pretrain: ./pretrained/FlowNet3d_8192.pth
+evaluate: True
+resume: True
+num_test: 1
+
+# Data args
+num_points: 8192
+dataset: KITTI_s_test # FT3D_s_test or KITTI_s_test
+data_root: /path/to/data

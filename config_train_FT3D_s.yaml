@@ -1,0 +1,19 @@
+# GPU args
+gpu: "0"
+multi_gpu: null
+
+# Training args
+model_name: FlowNet3d
+seed: 1
+batch_size: 8
+epochs: 500
+learning_rate: 0.001
+pretrain: null  #./pretrained/FT3D/model_200.tar
+weight_decay: 0.0001
+evaluate: False
+val_batch_size: 1
+
+# Data args
+num_points: 8192
+dataset: FT3D_S
+data_root: /path/to/data
