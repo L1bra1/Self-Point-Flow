@@ -22,7 +22,7 @@ pip install tqdm pptk PyYAML sklearn
 
 Compile the furthest point sampling, grouping and gathering operation for PyTorch. We use the operation from this [repo](https://github.com/sshaoshuai/Pointnet2.PyTorch).
 ```bash
-cd lib
+cd pointnet2
 python setup.py install
 cd ../
 ```
